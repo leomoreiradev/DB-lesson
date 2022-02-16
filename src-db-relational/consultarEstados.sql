@@ -11,11 +11,11 @@ select nome,
        populacao 
 from estados
 where populacao >= 10
-order by populacao asc;
+order by populacao asc -- ordena de forma crescente;
 
 select nome, 
 	   regiao, 
        populacao 
 from estados
 where populacao >= 10
-order by populacao desc;
+order by populacao desc -- ordena de forma decrescente;
