@@ -8,7 +8,6 @@ select
  select 
 	sum(populacao) as 'Total' -- sum = soma funcao agregadora
  from estados;
- 
 
 select 
 	avg(populacao) as 'Total' -- avg = media funcao agregadora, somou toda população e dividiu pela qte de linhas
