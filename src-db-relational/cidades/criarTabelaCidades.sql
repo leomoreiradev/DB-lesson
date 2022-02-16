@@ -13,5 +13,5 @@ create table if not exists teste (
 	id int unsigned not null auto_increment primary key
 );
 
--- Apague a tabela teste se ela existir
+-- Apague a tabela teste se ela ex istir
 drop table if exists teste;
